@@ -1,0 +1,19 @@
+Begin Object Class=AimOffsetBlendSpace1D Name="Aim_AimOffset"
+   Begin Object Class=SceneThumbnailInfo Name="SceneThumbnailInfo_3"
+   End Object
+   Begin Object Name="SceneThumbnailInfo_3"
+   End Object
+   bDisplayEditorVertically=True
+   BlendParameters(0)=(DisplayName="Pitch",Min=-90.000000,Max=90.000000)
+   PreviewBasePose=AnimSequence'/Game/AnimStarterPack/Idle_Rifle_Ironsights.Idle_Rifle_Ironsights'
+   SampleData(0)=(Animation=AnimSequence'/Game/AnimStarterPack/AimOffsets/Aim_Offset_Up.Aim_Offset_Up',SampleValue=(X=90.000000,Y=0.000000,Z=0.000000))
+   SampleData(1)=(Animation=AnimSequence'/Game/AnimStarterPack/AimOffsets/Aim_Offset_Down.Aim_Offset_Down',SampleValue=(X=-90.000000,Y=0.000000,Z=0.000000))
+   SampleData(2)=(Animation=AnimSequence'/Game/AnimStarterPack/AimOffsets/Aim_Offset_Center.Aim_Offset_Center')
+   GridSamples(0)=(Indices[0]=2,Indices[1]=1,Weights[1]=1.000000)
+   GridSamples(1)=(Indices[0]=2,Indices[1]=1,Weights[0]=0.500000,Weights[1]=0.500000)
+   GridSamples(2)=(Indices[0]=2,Indices[1]=1,Weights[0]=1.000000)
+   GridSamples(3)=(Indices[0]=0,Indices[1]=2,Weights[0]=0.500000,Weights[1]=0.500000)
+   GridSamples(4)=(Indices[0]=0,Indices[1]=2,Weights[0]=1.000000)
+   Skeleton=Skeleton'/Game/AnimStarterPack/Character/HeroTPP_Skeleton.HeroTPP_Skeleton'
+   ThumbnailInfo=SceneThumbnailInfo'SceneThumbnailInfo_3'
+End Object
